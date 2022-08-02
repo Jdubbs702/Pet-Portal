@@ -1,0 +1,28 @@
+.Box {
+    /* The image used */
+    /* Full height */
+    height: 50%;
+      
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      
+    padding: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.welcome-container{
+    display: flex;
+    flex-direction: column; 
+    max-width: 400px;
+    font-weight: 500;
+    color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+.welcome-header{
+    font-size: 30px;
+}
+.welcome-text{
+    font-size: 20px;
+}
