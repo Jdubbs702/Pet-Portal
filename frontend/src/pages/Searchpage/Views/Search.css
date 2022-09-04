@@ -6,6 +6,7 @@
 .container{
     width: 58%;  
     max-width: 500px;
+    gap: 7px;
 }
 .line{
     width: 100%;
@@ -52,4 +53,13 @@
 	padding: 0;
 	cursor: pointer;
 	outline: inherit;
+}
+
+@media screen and (max-width: 480px){
+    .search-page-intro{
+        font-size: 17px;
+    }
+    .name-input{
+        font-size: 8px;
+    }
 }

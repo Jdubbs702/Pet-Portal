@@ -1,6 +1,5 @@
 .Dropdown {
     display: flex;
-    margin: 10px 0;
     position: relative;
 }
 
@@ -28,8 +27,8 @@
     background-color: #fff;
     border: 1px solid #ddd;
     position: absolute;
-    width: 40%;
     z-index: 9;
+    width: 84px;
 }
 
 .Dropdown > .list > div {
@@ -49,4 +48,21 @@
 
 .Dropdown > .list > div:active {
     background-color: #f1f1f1;
+}
+@media screen and (max-width: 480px){
+    .selector-text{
+        font-size: 8px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .selector-text{
+        font-size: 9px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .selector-text{
+        font-size: 11px;
+    }
 }
