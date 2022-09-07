@@ -7,7 +7,7 @@ For access to admin features, sign-in as th@yahoo.com password: 123456
 
 In this repo, you will find the files for both the front end and backend of this REACT app.
 
-The design is strictly CSS without using any libraries, including the seacrchpage dropdown list.
+The design is strictly CSS without using any libraries, including the searchpage dropdown list.
 
 With consideration for UI/UX, I've made the app responsive to various screen sizes.
 
